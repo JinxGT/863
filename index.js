@@ -7,8 +7,8 @@ const prefix = "="
 
 bot.on('ready', () => {
     console.log(`Logged in as ${bot.user.tag} :)`);
-    bot.user.setActivity("the key series", { 
-        type: "Watching", 
+    bot.user.setActivity("with the keys", { 
+        type: "PLAYING", 
         url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 
     });
 
