@@ -20,7 +20,7 @@ bot.on('ready', () => {
 bot.on('ready', () => {
 var colors = ['#8585ff','#fff681','#a073fd','#fd73b9'];
     var random = Math.floor(Math.random() * colors.length);
-    var role = message.guild.roles.find("name", "role name");
+    var role = message.guild.roles.cache.get("817857046875340821");
     setInterval(() => {
         role.edit({
             color: colors[random]
